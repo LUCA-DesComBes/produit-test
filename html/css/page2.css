@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+    padding: 25px;
+    color: yellow;
+    line-height: 45px;
+    border-radius: 15px;
+    border: 7px solid aqua;
+}
+img {
+    border-radius: 20%;
+}
+button {
+    padding: 15px;
+    border: 0;
+    border-radius: 99px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    border: solid 4px aqua;
+    color: yellow;
+    background-color: black;
+    cursor: pointer;
+}
+button:hover {
+    transform: scale(1.1);
+}
